@@ -46,3 +46,19 @@ __pycache__/
 
 # Large data folders
 Vessel Traffic Data March 2014./
+
+# --- Large / binary data (keep out of GitHub) ---
+*.dbf
+*.shp
+*.shx
+*.gpkg
+*.zip
+*.mdb
+*.xlsx
+
+# Generated / caches
+__pycache__/
+*.pyc
+
+# Large data folder
+Vessel Traffic Data March 2014./
