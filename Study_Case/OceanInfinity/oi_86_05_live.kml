@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<NetworkLink>
+	<name>Live tracking - MH370-CAPTION.net</name>
+	<open>1</open>
+	<Link>
+		<href>https://trise5631.github.io/tracking_MH370-CAPTION.net.kml</href>
+		<refreshMode>onInterval</refreshMode>
+		<refreshInterval>300</refreshInterval>
+	</Link>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+</NetworkLink>
+</kml>

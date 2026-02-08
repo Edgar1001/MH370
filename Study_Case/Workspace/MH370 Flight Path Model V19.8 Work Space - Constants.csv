@@ -1,0 +1,69 @@
+"Perth
+Latitude","Perth
+Longitude",Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,"Perth
+Altitude
+(feet)",Unnamed: 7,Unnamed: 8,Unnamed: 9,"Perth
+WGS84
+N
+(km)","Perth
+WGS84
+x
+(km)","Perth
+WGS84
+y
+(km)","Perth
+WGS84
+z
+(km)"
+-31.80463889,115.8874444,,,,,150.91864,,,,6384.07502677124,-2368.818369091,4881.11079893375,-3342.06518453858
+"Satellite
+Reference
+Latitude","Satellite
+Reference
+Longitude","Satellite
+Reference
+x","Satellite
+Reference
+y","Satellite
+Reference
+z","Satellite Radius
+at Lat 0.0
+(km)","Satellite
+Altitude
+MSL
+(km)","Satellite
+Rx
+(km)","Satellite
+Ry
+(km)","Satellite
+Rz
+(km)","Satellite
+R
+(km)","Earth Radius
+at Lat -0.0
+(km)",Inclination,
+0,64.5,0.430511096808295,0.902585284349861,0,42164,35785.863,18152.069885825,38056.6059293275,0,42164,6378.137,0,
+,,,,,,,18152.069885825,38056.6059293275,1220,42181.646435387,,1.65667714994417,
+,,,,,,,18152.069885825,38056.6059293275,2400,42232.2494783311,,3.25254112077498,
+,,,,,,46,,,,,,,
+"Speed of Light
+(km/sec)",e,,,,,,,,,,,,
+299792.458,0.0818191908426215,55.1281380133986,,,,1.63964652983693,,,,,,,
+,,,,,,,,,,,,,
+"Burum
+Latitude","Burum
+Longitude","Burum
+rx","Burum
+ry","Burum
+rz","Earth Radius
+at Lat 53.3
+(km)","Burum
+Altitude
+(feet)","Burum
+Rx
+(km)","Burum
+Ry
+(km)","Burum
+Rz
+(km)",,,,
+53.284285,6.214551,0.594331800407635,0.0647178188062494,0.801611698363479,6364.365062,9.84,3782.54754498181,413.040745354157,5101.87538117016,,,,

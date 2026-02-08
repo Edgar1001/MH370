@@ -1,0 +1,11 @@
+{
+  "start_seconds_utc": 64200.0,
+  "end_seconds_utc": 87060.0,
+  "duration_seconds": 22860.0,
+  "start_point": {
+    "lat": 5.347806,
+    "lon": 100.6374
+  },
+  "avg_ground_speed_knots": 492.7288022304123,
+  "radius_km": 5794.589259990095
+}

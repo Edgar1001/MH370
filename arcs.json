@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "model_intent": "illustration (physically consistent centers per arc; no ArcGIS-fitting fudge)",
+    "use_wgs84": true,
+    "sat_alt_km": 35786,
+    "range_scale": 1,
+    "bto_bias_us": 235000,
+    "ground_range_scale": 0.9696,
+    "ground_range_offset_km": 0,
+    "use_arcgis_center": false,
+    "notes": [
+      "This version removes ArcGIS-fitting (no forced common center) so arcs 1–7 are generated with per-arc satellite subpoints.",
+      "Per-arc centers below are illustration-grade (approx digitized/interpolated) for Inmarsat-3F1 sub-satellite point during the handshake times.",
+      "bto_bias_us and ground_range_offset_km are set to 0 to avoid hidden tuning. If you want the arcs to match an official published line exactly, you must apply the same ephemeris + BTO calibration/bias conventions used by that source.",
+      "R600 logon entries often require special handling (e.g., subtracting ~4600 us) before conversion; keep that logic in your renderer if you already have it."
+    ],
+    "centers_by_arc": {
+      "ping-182527": { "lat": 1.56, "lon": 64.528, "label": "approx subpoint @ 18:25:27" },
+      "ping-194102": { "lat": 1.64, "lon": 64.514, "label": "approx subpoint @ 19:41:02" },
+      "ping-204104": { "lat": 1.58, "lon": 64.504, "label": "approx subpoint @ 20:41:04" },
+      "ping-214126": { "lat": 1.41, "lon": 64.494, "label": "approx subpoint @ 21:41:26" },
+      "ping-224121": { "lat": 1.14, "lon": 64.482, "label": "approx subpoint @ 22:41:21" },
+      "ping-001059": { "lat": 0.58, "lon": 64.466, "label": "approx subpoint @ 00:10:59" },
+      "ping-001929": { "lat": 0.53, "lon": 64.464, "label": "approx subpoint @ 00:19:29" }
+    }
+  },
+  "arcs": [
+    {
+      "id": "ping-182527",
+      "time_utc": "18:25:27",
+      "bto_us": 17120,
+      "channel": "R600",
+      "logon": true,
+      "center_override": { "lat": 1.56, "lon": 64.528 },
+      "color": "#d45d3f"
+    },
+    {
+      "id": "ping-194102",
+      "time_utc": "19:41:02",
+      "bto_us": 11500,
+      "channel": "R1200",
+      "center_override": { "lat": 1.64, "lon": 64.514 },
+      "color": "#357edd"
+    },
+    {
+      "id": "ping-204104",
+      "time_utc": "20:41:04",
+      "bto_us": 11740,
+      "channel": "R1200",
+      "center_override": { "lat": 1.58, "lon": 64.504 },
+      "color": "#f2a65a"
+    },
+    {
+      "id": "ping-214126",
+      "time_utc": "21:41:26",
+      "bto_us": 12780,
+      "channel": "R1200",
+      "center_override": { "lat": 1.41, "lon": 64.494 },
+      "color": "#6a994e"
+    },
+    {
+      "id": "ping-224121",
+      "time_utc": "22:41:21",
+      "bto_us": 14540,
+      "channel": "R1200",
+      "fit_to_flight_paths": true,
+      "fit_lat_min": -30,
+      "fit_lat_max": -10,
+      "fit_band_km": 1500,
+      "fit_offset_km": 0,
+      "center_override": { "lat": 1.14, "lon": 64.482 },
+      "color": "#577590"
+    },
+    {
+      "id": "ping-001059",
+      "time_utc": "00:10:59",
+      "bto_us": 18040,
+      "channel": "R1200",
+      "center_override": { "lat": 0.58, "lon": 64.466 },
+      "color": "#c44536"
+    },
+    {
+      "id": "ping-001929",
+      "time_utc": "00:19:29",
+      "bto_us": 23000,
+      "channel": "R600",
+      "logon": true,
+      "center_override": { "lat": 0.53, "lon": 64.464 },
+      "color": "#3d5a80"
+    }
+  ]
+}

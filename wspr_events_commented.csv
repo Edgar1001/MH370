@@ -1,0 +1,12 @@
+# Notes:
+# - Times are UTC (WSPR reference).
+# - Comments below reflect AMSA CTS AIS March 2014 checks.
+UTC_TIME,BAND_MHZ,TX_CALL,TX_LAT,TX_LON,RX_CALL,RX_LAT,RX_LON,FREQ_HZ,SNR_DB,DRIFT,POWER_DBM,DIST_KM
+# DN3IFG @ (-31.521, 92.958): NO VESSEL (AIS)
+# Reason: AMSA CTS AIS: nearest AIS point ~28.88 km away but at 2014-03-06 01:17 UTC (about 1 day 17:50:56 before WSPR).
+2014-03-07 19:08:00,7,DN3IFG,-31.521,92.958,LA1NRA,63.396,10.375,7040110,-14,-3,40,12756
+# XT9ESZ @ (-23.521, 100.958): NO VESSEL (AIS)
+# Reason: AMSA CTS AIS: no AIS points found in ~30 km box for Mar 6–9 local around this coordinate (cand_2100.gpkg = 0).
+2014-03-07 21:00:00,10,XT9ESZ,-23.521,100.958,PI4THT,52.229,6.875,10140280,-23,0,30,12323
+# VR3YBO @ (-38.521, 116.958): NOT CHECKED HERE (needs time+distance match in AIS)
+2014-03-07 20:04:00,28,VR3YBO,-38.521,116.958,GM4WJA,57.563,-2.958,28126099,-30,0,10,15267
