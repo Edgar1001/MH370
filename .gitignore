@@ -1,0 +1,16 @@
+
+# Large data / GIS / archives
+*.dbf
+*.shp
+*.shx
+*.gpkg
+*.zip
+*.mdb
+*.xlsx
+
+# Generated / caches
+__pycache__/
+*.pyc
+
+# Large data folders
+Vessel Traffic Data March 2014./
